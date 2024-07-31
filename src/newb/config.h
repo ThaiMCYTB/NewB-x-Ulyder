@@ -1,6 +1,6 @@
 #ifndef NL_CONFIG_H 
 #define NL_CONFIG_H
-// line 3 reserved
+// line 3 reserved //
 
 /*
   EDITING_CONFIG:
