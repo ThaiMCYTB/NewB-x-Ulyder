@@ -115,7 +115,21 @@ vec3 renderEndSky(vec3 horizonCol, vec3 zenithCol, vec3 viewDir, float t) {
 
   return sky;
 }
+vec3 rdEndSky(vec2 uv, float time){
+ vec3 col;
+ float t = 0.5*time;
 
+ float g = 0.4*sin(uv.x*18.0 + t); // main streak
+ g += 0.3*sin(uv.x*28.0 - t);      // small streak
+ g += 0.08*sin(uv.x*65.0 + 2.0*t); // very small streaks
+
+ float d = 1.0/(1.0+60.0*(1.0+g)*uv.y*uv.y); // horizon gradient
+
+ d += 0.4*(0.3-d)/(1.0+10.0*uv.y*uv.y); // kind of bloom
+
+ col = d*mix(vec3(0.7,0.0,1.0),vec3(1.0,0.8,1.0),d);
+ return col;
+}
 vec3 nlRenderSky(vec3 horizonEdgeCol, vec3 horizonCol, vec3 zenithCol, vec3 viewDir, vec3 FOG_COLOR, float t, float rainFactor, bool end, bool underWater, bool nether) {
   vec3 sky;
   viewDir.y = -viewDir.y;
