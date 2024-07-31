@@ -1,4 +1,4 @@
-#ifndef NL_CONFIG_H
+#ifndef NL_CONFIG_H 
 #define NL_CONFIG_H
 // line 3 reserved
 
