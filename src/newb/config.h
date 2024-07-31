@@ -1,9 +1,9 @@
-#ifndef_NL_CONFIG_H 
+#ifndef NL_CONFIG_H 
 #define NL_CONFIG_H
 // line 3 reserved
 
 /*
-  EDITING CONFIG:
+  EDITING_CONFIG:
 
   > TOGGLES
   if [toggle] is mentioned, then
