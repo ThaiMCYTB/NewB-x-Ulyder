@@ -1,8 +1,8 @@
-name = "Newb X Ulyder(Window)"
+name = "Newb X Ulyder(Win)"
 version = [0, 1, 0]
 min_supported_mc_version = [1, 20, 80]
 url = "https://devendrn.github.io/newb-shader/"
-authors = ["ThaiMC:YTB"]
+authors = ["devendrn","ThaiMC:YTB"]
 materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
 
 [description]
