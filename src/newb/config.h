@@ -200,6 +200,7 @@
 #ifdef ROUNDED_CLOUDS
   #undef NL_CLOUD_TYPE
   #define NL_CLOUD_TYPE 2
+  #define NL_CHUNK_LOAD_ANIM 100.0
 #endif
 
 #ifdef BOX_CLOUDS
