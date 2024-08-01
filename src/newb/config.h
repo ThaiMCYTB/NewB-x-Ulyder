@@ -31,7 +31,7 @@
 
 /* Color correction */
 #define NL_TONEMAP_TYPE 3   // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
-#define NL_CONSTRAST 1.3   // 0.3 low ~ 2.0 high
+#define NL_CONSTRAST 1.8   // 0.3 low ~ 2.0 high
 #define NL_EXPOSURE 1.4   // [toggle] 0.5 dark ~ 3.0 bright
 #define NL_SATURATION 1.6 // [toggle] 0.0 grayscale ~ 4.0 super saturated
 //#define NL_TINT vec3(1.0,0.75,0.5) // [toggle] color overlay
@@ -96,7 +96,7 @@
 
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.9 // 0.0 transparent ~ 1.0 normal
-#define NL_WATER_BUMP 0.148        // 0.001 plain ~ 0.2 bumpy water
+#define NL_WATER_BUMP 0.134        // 0.001 plain ~ 0.2 bumpy water
 #define NL_WATER_TEX_OPACITY 0.7  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_FOG_FADE         // [toggle] fog fade for water
@@ -131,7 +131,7 @@
 #define NL_CLOUD2_STEPS 5            // 3 low quality ~ 16 high quality
 #define NL_CLOUD2_SCALE 0.05        // 0.003 large ~ 0.3 tiny
 #define NL_CLOUD2_SHAPE 0.63          // 0.0 round ~ 1.0 box
-#define NL_CLOUD2_DENSITY 12345.6       // 1.0 blurry ~ 100.0 sharp
+#define NL_CLOUD2_DENSITY 999.9       // 1.0 blurry ~ 100.0 sharp
 #define NL_CLOUD2_VELOCIY 1.2        // 0.0 static ~ 4.0 very fast
 //#define NL_CLOUD2_MULTILAYER       // [toggle] extra cloud layer
 
