@@ -32,7 +32,7 @@
 /* Color correction */
 #define NL_TONEMAP_TYPE 4   // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
 #define NL_CONSTRAST 1.6   // 0.3 low ~ 2.0 high
-#define NL_EXPOSURE 2.0   // [toggle] 0.5 dark ~ 3.0 bright
+#define NL_EXPOSURE 2.2   // [toggle] 0.5 dark ~ 3.0 bright
 #define NL_SATURATION 1.8 // [toggle] 0.0 grayscale ~ 4.0 super saturated
 //#define NL_TINT vec3(1.0,0.75,0.5) // [toggle] color overlay
 
@@ -96,7 +96,7 @@
 
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.9 // 0.0 transparent ~ 1.0 normal
-#define NL_WATER_BUMP 0.134        // 0.001 plain ~ 0.2 bumpy water
+#define NL_WATER_BUMP 0.127        // 0.001 plain ~ 0.2 bumpy water
 #define NL_WATER_TEX_OPACITY 0.7  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_FOG_FADE         // [toggle] fog fade for water
