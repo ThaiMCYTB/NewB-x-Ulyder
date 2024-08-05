@@ -30,14 +30,14 @@
 /* -------- CONFIG STARTS HERE ----------- */
 
 /* Color correction */
-#define NL_TONEMAP_TYPE 3   // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
-#define NL_CONSTRAST 1.6   // 0.3 low ~ 2.0 high
-#define NL_EXPOSURE 2.1   // [toggle] 0.5 dark ~ 3.0 bright
+#define NL_TONEMAP_TYPE 4   // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
+#define NL_CONSTRAST 1.7   // 0.3 low ~ 2.0 high
+#define NL_EXPOSURE 2.5   // [toggle] 0.5 dark ~ 3.0 bright
 #define NL_SATURATION 1.5 // [toggle] 0.0 grayscale ~ 4.0 super saturated
 //#define NL_TINT vec3(1.0,0.75,0.5) // [toggle] color overlay
 
 /* Terrain lighting */
-#define NL_SUN_INTENSITY 2.734   // 0.5 weak ~ 5.0 bright
+#define NL_SUN_INTENSITY 2.789   // 0.5 weak ~ 5.0 bright
 #define NL_TORCH_INTENSITY 2.4  // 0.5 weak ~ 3.0 bright
 #define NL_NIGHT_BRIGHTNESS 1.4 // 0.0 dark ~ 2.0 bright
 #define NL_CAVE_BRIGHTNESS  1.2 // 0.0 dark ~ 2.0 bright
