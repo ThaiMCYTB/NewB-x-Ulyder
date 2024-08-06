@@ -30,7 +30,7 @@ void main() {
     color = v_color0;
   #endif
 
-diffuse.rgb += 0.2*texture2D(s_MatTexture, v_texcoord0 + vec2(0.001,0.001)).rgb;
+diffuse.rgb += 0.2*texture2D(s_MatTexture, v_texcoord0 + vec2(0.002,0.002)).rgb;
 
   vec3 glow = nlGlow(s_MatTexture, v_texcoord0, v_extra.a);
 
