@@ -30,14 +30,14 @@
 /* -------- CONFIG STARTS HERE ----------- */
 
 /* Color correction */
-#define NL_TONEMAP_TYPE 3   // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
-#define NL_CONSTRAST 0.86   // 0.3 low ~ 2.0 high
+#define NL_TONEMAP_TYPE 4   // 1:Exponential, 2:Reinhard, 3:Extended Reinhard, 4:ACES
+#define NL_CONSTRAST 1.2   // 0.3 low ~ 2.0 high
 #define NL_EXPOSURE 1.6   // [toggle] 0.5 dark ~ 3.0 bright
-#define NL_SATURATION 1.5 // [toggle] 0.0 grayscale ~ 4.0 super saturated
+#define NL_SATURATION 1.2 // [toggle] 0.0 grayscale ~ 4.0 super saturated
 //#define NL_TINT vec3(1.0,0.75,0.5) // [toggle] color overlay
 
 /* Terrain lighting */
-#define NL_SUN_INTENSITY 2.789   // 0.5 weak ~ 5.0 bright
+#define NL_SUN_INTENSITY 2.642   // 0.5 weak ~ 5.0 bright
 #define NL_TORCH_INTENSITY 2.4  // 0.5 weak ~ 3.0 bright
 #define NL_NIGHT_BRIGHTNESS 1.4 // 0.0 dark ~ 2.0 bright
 #define NL_CAVE_BRIGHTNESS  1.2 // 0.0 dark ~ 2.0 bright
@@ -154,7 +154,7 @@
 //#define NL_GODRAY 0.3 // [toggle] 0.1 subtle ~ 0.8 strong
 
 /* Sky reflection */
-//#define NL_GROUND_REFL 0.4       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky 
+#define NL_GROUND_REFL 0.1       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky 
 #define NL_GROUND_RAIN_WETNESS 1.0 // 0.0 no wetness ~ 1.0 fully wet blocks when raining
 #define NL_GROUND_RAIN_PUDDLES 0.7 // 0.0 no puddles ~ 1.0 puddles
 //#define NL_GROUND_AURORA_REFL    // [toggle] aurora reflection on ground
