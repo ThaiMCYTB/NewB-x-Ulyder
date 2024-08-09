@@ -103,7 +103,7 @@ vec4 renderClouds(vec3 vDir, vec3 vPos, float rain, float time, vec3 fogCol, vec
 
   d.y = 1.0 - 0.7*d.y*d.y;
  
-  vec4 col = vec4(0.6*skyCol, d.x);
+  vec4 col = vec4(0.3*skyCol, d.x);
   col.rgb += (vec3(0.03,0.05,0.05) + 0.8*fogCol)*d.y;
   col.rgb *= 1.0 - 0.5*rain;
 
